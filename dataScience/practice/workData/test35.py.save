@@ -1,0 +1,7 @@
+from os.path import basename
+def extsort(l):
+	s = sorted(l,key= lambda x: x[len(basename(x))+1:] print(basename(x))  )
+	return s
+
+
+print(extsort(['a.c', 'a.py', 'b.py', 'bar.txt', 'foo.txt', 'x.c']))
